@@ -9,5 +9,8 @@
             "email": "www.rifma@mail.ru"
         }
     ],
-    "require": {}
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ]
 }
