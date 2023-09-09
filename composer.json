@@ -1,0 +1,12 @@
+{
+    "name": "hexlet/code",
+    "description": "Mind games",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sergey Mudryakov",
+            "email": "www.rifma@mail.ru"
+        }
+    ],
+    "require": {}
+}
