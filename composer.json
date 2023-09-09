@@ -2,6 +2,7 @@
     "name": "hexlet/code",
     "description": "Mind games",
     "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sergey Mudryakov",
