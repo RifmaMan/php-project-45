@@ -1,5 +1,6 @@
 #!/usr/bin/env php
 <?php
 
-print_r("php bin/brain-games.php\n");
-print_r("Welcome to the Brain Games!\n");
+require_once __DIR__ . './../vendor/autoload.php';
+
+use BrainGames\Cli;
