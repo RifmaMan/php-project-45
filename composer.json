@@ -14,13 +14,16 @@
     },
     "autoload": {
         "files": [
+            "src/Games/Calc.php",
+            "src/Games/Even.php",
             "src/Cli.php",
-            "src/Even.php"
+            "src/Engine.php"
         ]
     },
     "bin": [
-        "bin/brain-games",
-        "bin/brain-even"
+        "bin/brain-calc",
+        "bin/brain-even",
+        "bin/brain-games"
     ],
     "require-dev": {
         "squizlabs/php_codesniffer": "*"
