@@ -17,6 +17,7 @@
             "src/Games/Calc.php",
             "src/Games/Even.php",
             "src/Games/Gcd.php",
+            "src/Games/Progression.php",
             "src/Cli.php",
             "src/Engine.php"
         ]
