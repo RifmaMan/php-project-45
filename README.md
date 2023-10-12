@@ -4,3 +4,5 @@
 [![asciicast](https://asciinema.org/a/SwzEICto9TeIkJnWHbKsiI4My.svg)](https://asciinema.org/a/SwzEICto9TeIkJnWHbKsiI4My)
 ## Brain Calc Game
 [![asciicast](https://asciinema.org/a/gzUR8JaOxVUxZc8s2n8NtXuKh.svg)](https://asciinema.org/a/gzUR8JaOxVUxZc8s2n8NtXuKh)
+## Brain Gcd Game
+[![asciicast](https://asciinema.org/a/4bRM7XsYSuCxKWxhDDSjJlKbs.svg)](https://asciinema.org/a/4bRM7XsYSuCxKWxhDDSjJlKbs)
