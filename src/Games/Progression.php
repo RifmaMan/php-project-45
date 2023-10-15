@@ -37,7 +37,7 @@ function getProgression($stepCount = 5, $increaseByNumber = 2): object
     $progression = [];
     for ($i = 0; $i < $stepCount; $i++) {
         if ($i === 0) {
-            $progression[] = rand(1, 100);
+            $progression[] = rand(1, 10);
         } else {
             $progression[] = $progression[$i - 1] + $increaseByNumber;
         }
