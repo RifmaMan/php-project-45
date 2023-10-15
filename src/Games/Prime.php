@@ -9,7 +9,7 @@ use function cli\prompt;
 
 function startGame()
 {
-    line('Welcome to the Brain Game!');
+    Engine\greeting();
     $userName = Engine\getUserName();
 
     line('Answer "yes" if given number is prime. Otherwise answer "no".');

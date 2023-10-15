@@ -9,7 +9,7 @@ use function cli\prompt;
 
 function startGame()
 {
-    line('Welcome to the Brain Game!');
+    Engine\greeting();
     $userName = Engine\getUserName();
 
     line('Answer "yes" if the number is even, otherwise answer "no".');
