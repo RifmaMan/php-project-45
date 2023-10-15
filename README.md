@@ -8,3 +8,5 @@
 [![asciicast](https://asciinema.org/a/4bRM7XsYSuCxKWxhDDSjJlKbs.svg)](https://asciinema.org/a/4bRM7XsYSuCxKWxhDDSjJlKbs)
 ## Brain Progression Game
 [![asciicast](https://asciinema.org/a/TJ9YwpRl7CfYnwFSWcblWPxgd.svg)](https://asciinema.org/a/TJ9YwpRl7CfYnwFSWcblWPxgd)
+## Brain Prime Game
+[![asciicast](https://asciinema.org/a/5u3gwLgV2xqC3DVLln6cOK44a.svg)](https://asciinema.org/a/5u3gwLgV2xqC3DVLln6cOK44a)
