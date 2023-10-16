@@ -12,7 +12,7 @@ function startGame()
     Engine\greeting();
     $userName = Engine\getUserName();
 
-    line('What number is missing in the progression?');
+    line('What number is missing in the ?');
     $stepCount = 10;
     for ($i = 0; $i < 3; $i++) {
         $increaseByNumber = rand(1, 10);
