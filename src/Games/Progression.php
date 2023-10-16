@@ -3,16 +3,14 @@
 namespace BrainGames\Progression;
 
 use BrainGames\Engine;
-
 use function cli\line;
-use function cli\prompt;
 
-function startGame()
+function startGame(): void
 {
     Engine\greeting();
     $userName = Engine\getUserName();
-
     line('What number is missing in the progression?');
+
     $stepCount = 10;
     for ($i = 0; $i < 3; $i++) {
         $increaseByNumber = rand(1, 10);

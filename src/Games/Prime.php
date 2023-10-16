@@ -3,16 +3,14 @@
 namespace BrainGames\Prime;
 
 use BrainGames\Engine;
-
 use function cli\line;
-use function cli\prompt;
 
-function startGame()
+function startGame(): void
 {
     Engine\greeting();
     $userName = Engine\getUserName();
-
     line('Answer "yes" if given number is prime. Otherwise answer "no".');
+
     for ($i = 0; $i < 3; $i++) {
         $number = rand(1, 3571);
         $answer = Engine\askQuestion($number);
@@ -32,7 +30,7 @@ function startGame()
 
 function isPrimeNumber($number): string
 {
-    if ($number === 1 || !is_numeric($number)) {
+    if (!is_numeric($number) || $number === 1) {
         return 'no';
     }
     for ($i = 2; $i < $number; $i++) {

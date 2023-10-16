@@ -3,16 +3,14 @@
 namespace BrainGames\Calc;
 
 use BrainGames\Engine;
-
 use function cli\line;
-use function cli\prompt;
 
-function startGame()
+function startGame(): void
 {
     Engine\greeting();
     $userName = Engine\getUserName();
-
     line('What is the result of the expression?');
+
     for ($i = 0; $i < 3; $i++) {
         $a = rand(0, 100);
         $b = rand(0, 100);
